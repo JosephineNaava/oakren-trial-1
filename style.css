@@ -10,16 +10,40 @@ html {
   font-family: "Poppins", sans-serif;
 }
 body {
+  position: absolute;
+  width: 1440px;
+  height: 2769px;
+  left: 95px;
+  top: 82px;
 }
+
+/* HEADER */
+/* ==================================== */
 .header {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem;
+  padding: 0.6rem;
   background-color: #1b2644;
 }
+
+/* .main_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 160px; 
+
+   position: absolute;
+  width: 1153.1px;
+  height: 56.97px;
+  left: 143px;
+  top: 33px;  
+}*/
+
 .main-navigation__list {
   display: flex;
   gap: 1.6rem;
@@ -49,24 +73,155 @@ body {
   cursor: pointer;
   background-color: #ce2228;
 }
-.hero-section {
-  background-image: url(img/contact-bg.jpg);
+
+.logo {
+  height: 4rem;
+}
+
+/* .background-image {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+
+  /* background-image: url(content/131-1317438_civil-engineering-wallpaper-4k.jpg); 
   background-position: center;
   background-repeat: no-repeat;
+} */
+
+/* .landing-image {
+  padding: 60.8rem 0 5.6rem 0;
+} */
+/*
+  position: absolute;
+  left: 0px;
+  top: 118px;
+  background: #131d3b;
+  opacity: 0.5; *
+}*/
+
+/* =================================================================== */
+/* HERO SECTION */
+/* =================================================================== */
+.section-hero {
+  background-color: #131d3b;
+  /* background-color: #ce2228; */
+  margin: 3rem auto;
+  padding: 0 3.2rem;
+
+  width: 1440px;
+  height: 1500px;
+  left: 95px;
+  /* top: 1000px; */
 }
-.hero-section__content {
+
+/* .hero1 {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 9.6rem;
+  align-items: center;
+
+  width: 602px;
+  height: 594px;
+  left: 753px;
+  top: 1538px;
+} */
+
+.hero1-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 27px;
+
+  position: absolute;
+  width: 595px;
+  height: 489px;
+  left: 760px;
+  top: 904px;
+}
+
+/* .hero2 {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 9.6rem;
+  align-items: center; 
+
+  width: 602px;
+  height: 594px;
+  left: 85px;
+  top: 1000px;
+} */
+
+.hero2-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 598px;
+  height: 422px;
+  left: 85px;
+  top: 1626px;
+}
+.hero-text {
+  font-size: 2rem;
+  line-height: 1.6;
+  /* font-weight: 700; */
+  /* color: #000;  */
+  margin-bottom: 4.8rem;
+  color: #ffffff;
+}
+
+.hero-img1 {
+  position: absolute;
+  width: 602px;
+  height: 594px;
+  left: 85px;
+  top: 800px;
+}
+.hero-img2 {
+  position: absolute;
+  width: 602px;
+  height: 594px;
+  left: 753px;
+  top: 1500px;
+
+  /* background: url(), #c4c4c4; */
+}
+
+.margin-right {
+  margin-right: 1.6rem !important;
+}
+
+.description {
+  font-size: 2rem;
+  line-height: 1.6;
+  /* font-weight: 700; 
+  /* color: #000; */
+  margin-bottom: 3.8rem;
+}
+
+/* .hero-section__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.hero-section__content--paragraph-wrapper {
+} */
+/* .hero-section__content--paragraph-wrapper {
   border-radius: 5px 0 5px 0 solid #ce2228;
   border: 1px solid #ce2228;
   padding: 1.8rem;
   margin: 8rem 0;
-}
-.hero-section__content--paragraph {
+} */
+/* .hero-section__content--paragraph {
   font-size: 3.2rem;
   font-weight: 800;
   text-transform: capitalize;
@@ -75,4 +230,68 @@ body {
 }
 .hero-section__content--button {
   margin-bottom: 16.3rem;
+} */
+
+.consultation-topics {
+  padding: 9.6rem;
+  background-color: orangered;
+  position: absolute;
+  width: 100%;
+  height: 361px;
+  /* left: 888px; */
+  top: 2150px;
+
+  /* background: url(Frame 47.png); */
 }
+.container {
+  display: flex;
+}
+.container1 {
+  position: relative;
+  width: 296px;
+  height: 555px;
+  background: #ffff;
+  margin-right: 30px;
+}
+.container2 {
+  position: relative;
+  width: 296px;
+  height: 555px;
+  background: #ffff;
+  margin-right: 30px;
+}
+.container3 {
+  position: relative;
+  width: 296px;
+  height: 555px;
+  background: #ffff;
+  margin-right: 30px;
+}
+.container4 {
+  position: relative;
+  width: 296px;
+  height: 555px;
+  background: #ffff;
+}
+
+/* TO MAKE GRID REUSABLE */
+/* ****************************************** */
+
+/* .container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+} */
+
+/* .grid {
+  display: grid;
+  gap: 9.6rem;
+} */
+
+/* .newgrid2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.newgrid4 {
+  grid-template-columns: repeat(4, 1fr); */
+/* ****************************************** */
